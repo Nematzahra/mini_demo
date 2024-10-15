@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+:root {
+    --main-color: #f0b30f;
+}
+.theme-text{
+    color: var(--main-color);
+}
+.navbar-brand{
+    color: var(--main-color) !important;
+}
+.active{
+    color: var(--main-color) !important;
+    border-bottom: 2px solid #f0b30f;
+}
+.navbar ul li a:hover{
+    color: var(--main-color) !important;
+    border-bottom: 2px solid #f0b30f;
+}
+.header{
+    background-image: url('https://images.squarespace-cdn.com/content/v1/614b8a3ca23b0a1609d011b0/1633600657482-RD46JYBH5UB94DFT8GFI/lofthouseresidences_hero_innovation2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+.wave{
+    position: absolute;
+    bottom: 0px;
+}
+.middle{
+    height: 80vh;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle h1{
+    padding-top: 40px;
+    font-size: 70px;
+    margin-bottom: 150px;
+    margin-left: 2%;
+}
+.btn-hov{
+     display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+.btn-hov button{
+   
+   margin-bottom: 10%;
+} 
+.btn-hov button:hover {
+    background-color: rgb(7, 99, 30);
+    color: black;
+}
+  /* about */
